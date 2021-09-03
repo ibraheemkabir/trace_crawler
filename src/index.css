@@ -11,3 +11,93 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.balance_container{
+  display: flex;
+  justify-content: space-around;
+  width: 85%;
+  margin: 0px auto;
+}
+
+.top-container{
+  padding: 1% 5%;
+  padding-bottom: 4%;
+}
+
+.top-container2{
+  padding: 1% 5%;
+  padding-bottom: 1%;
+}
+
+.input-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.transactions-container{
+  margin: 0px auto;
+  margin-top: -2rem auto;
+  width: 90%;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.pgHeader{
+  width: 90%;
+  margin: 0px auto;
+}
+
+.pgHeader2{
+  width: 100%;
+  margin: 0px auto;
+}
+
+.topMenu{
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 5%;
+}
+
+.header-main-text{
+  text-align: start;
+  margin: 1.5rem 0rem;
+  font-size: 1.3rem;
+}
+
+input{
+  padding: 13px !important;
+  border-radius: 4px !important;
+}
+
+.txIdfield{
+  width: 55% !important;;
+}
+
+.txfield{
+  width: 55% !important;
+}
+
+.submitBtn{
+  padding: 15px 30px;
+  margin: 4% 5%;
+  width: 20%;
+}
+
+.btnContainer{
+  width: 100%;
+}
+
+.blockfield{
+  width: 30% !important;
+  margin-right: 5% !important;
+
+}
+
+.Bonus_Tabs{
+  font-size: 0.7rem;
+  cursor: pointer;
+}
+
