@@ -7,7 +7,7 @@ export class ApiClient {
             method: method,
             headers: headers,
             body: payload,
-            mode: 'cors'
+            mode: 'no-cors'
         })
         const resJ = await res.json();
         return resJ
