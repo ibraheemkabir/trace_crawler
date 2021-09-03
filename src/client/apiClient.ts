@@ -6,7 +6,8 @@ export class ApiClient {
         const res = await fetch(url,{
             method: method,
             headers: headers,
-            body: payload
+            body: payload,
+            mode: 'cors'
         })
         const resJ = await res.json();
         return resJ

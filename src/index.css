@@ -19,6 +19,16 @@ code {
   margin: 0px auto;
 }
 
+.tokenCard{
+  padding: 15px 22px;
+  margin-left: 0px;
+  box-shadow: rgb(0 0 0 / 14%) -2px -1px 5px 2px;
+}
+
+.tokenSymbol{
+  font-weight: bold;
+}
+
 .top-container{
   padding: 1% 5%;
   padding-bottom: 4%;
@@ -37,7 +47,6 @@ code {
 
 .transactions-container{
   margin: 0px auto;
-  margin-top: -2rem auto;
   width: 90%;
   border-top-style: solid;
   border-top-width: 1px;
@@ -81,7 +90,6 @@ input{
 }
 
 .submitBtn{
-  padding: 15px 30px;
   margin: 4% 5%;
   width: 20%;
 }
