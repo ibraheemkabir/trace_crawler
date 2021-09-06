@@ -17,3 +17,7 @@ The app is a create-react-app appliccation so can be run by following the follow
 - the transactions crawler can be tested from home /
 
 - the balances bonus task can tested from /balance
+
+env variables :
+REACT_APP_APIKEY = 'XBAM22W3DU61ZWPGIIE7ZJX9BJHR3QJQXZ'
+REACT_APP_XAPIKEY = 'BQYsgdSaCaNhgVZM1lzzR8I5xY6gtVw8'
